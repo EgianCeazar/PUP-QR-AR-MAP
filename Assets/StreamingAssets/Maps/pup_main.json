@@ -1,0 +1,487 @@
+{
+ "version": 5,
+ "campusId": "pup-main",
+ "campusName": "PUP Main Campus (Sta. Mesa)",
+ "note": "30 places, placed exactly on the yellow numbered circles of Egian's map. Positions are pixels (px, py) on the map picture. Routes follow walkMask (white = walkable, gray = grass, avoided; black = blocked). Rules drawn into the mask: lagoon garden only via its 3 entrances (two gates + #14), striped road in front of the North Wing is closed, no route behind the P.E. Building to the Library. metersPerPixel and upBearing are rough guesses until GPS calibration. facing = QR direction (0 = TODO).",
+ "origin": {
+  "lat": 14.5979,
+  "lng": 121.0107
+ },
+ "image": {
+  "file": "Maps/pup_model_top.png",
+  "widthPx": 1540,
+  "heightPx": 945,
+  "metersPerPixel": 0.3,
+  "originPx": 770,
+  "originPy": 472.5,
+  "upBearing": 270
+ },
+ "nodes": [
+  {
+   "id": "pylon",
+   "name": "PUP Pylon",
+   "label": 1,
+   "px": 1362,
+   "py": 345,
+   "lat": 0,
+   "lng": 0,
+   "floor": 0,
+   "facing": 0,
+   "isDestination": true,
+   "tags": [
+    "landmark"
+   ]
+  },
+  {
+   "id": "main-gate",
+   "name": "Main Gate",
+   "label": 2,
+   "px": 1343,
+   "py": 382,
+   "lat": 0,
+   "lng": 0,
+   "floor": 0,
+   "facing": 0,
+   "isDestination": true,
+   "tags": [
+    "gate",
+    "entrance"
+   ]
+  },
+  {
+   "id": "west-gate",
+   "name": "West Gate",
+   "label": 3,
+   "px": 1358,
+   "py": 234,
+   "lat": 0,
+   "lng": 0,
+   "floor": 0,
+   "facing": 0,
+   "isDestination": true,
+   "tags": [
+    "gate",
+    "entrance"
+   ]
+  },
+  {
+   "id": "parking",
+   "name": "Parking",
+   "label": 4,
+   "px": 1152,
+   "py": 320,
+   "lat": 0,
+   "lng": 0,
+   "floor": 0,
+   "facing": 0,
+   "isDestination": true,
+   "tags": [
+    "parking"
+   ]
+  },
+  {
+   "id": "open-court",
+   "name": "Open Court",
+   "label": 5,
+   "px": 996,
+   "py": 302,
+   "lat": 0,
+   "lng": 0,
+   "floor": 0,
+   "facing": 0,
+   "isDestination": true,
+   "tags": [
+    "sports"
+   ]
+  },
+  {
+   "id": "souvenir-shop",
+   "name": "Souvenir Shop",
+   "label": 6,
+   "px": 1040,
+   "py": 415,
+   "lat": 0,
+   "lng": 0,
+   "floor": 0,
+   "facing": 0,
+   "isDestination": true,
+   "tags": [
+    "shop"
+   ]
+  },
+  {
+   "id": "oval",
+   "name": "Oval Open Field",
+   "label": 7,
+   "px": 1164,
+   "py": 693,
+   "lat": 0,
+   "lng": 0,
+   "floor": 0,
+   "facing": 0,
+   "isDestination": true,
+   "tags": [
+    "outdoor",
+    "sports"
+   ]
+  },
+  {
+   "id": "gym",
+   "name": "Gymnasium",
+   "label": 8,
+   "px": 1141,
+   "py": 124,
+   "lat": 0,
+   "lng": 0,
+   "floor": 0,
+   "facing": 0,
+   "isDestination": true,
+   "tags": [
+    "building",
+    "sports"
+   ]
+  },
+  {
+   "id": "pool",
+   "name": "Swimming Pool",
+   "label": 9,
+   "px": 868,
+   "py": 141,
+   "lat": 0,
+   "lng": 0,
+   "floor": 0,
+   "facing": 0,
+   "isDestination": true,
+   "tags": [
+    "sports"
+   ]
+  },
+  {
+   "id": "grandstand",
+   "name": "Grandstand",
+   "label": 10,
+   "px": 1037,
+   "py": 583,
+   "lat": 0,
+   "lng": 0,
+   "floor": 0,
+   "facing": 0,
+   "isDestination": true,
+   "tags": [
+    "sports"
+   ]
+  },
+  {
+   "id": "mabini-shrine",
+   "name": "Mabini Shrine",
+   "label": 11,
+   "px": 947,
+   "py": 498,
+   "lat": 0,
+   "lng": 0,
+   "floor": 0,
+   "facing": 0,
+   "isDestination": true,
+   "tags": [
+    "landmark"
+   ]
+  },
+  {
+   "id": "obelisk",
+   "name": "PUP Obelisk / Mabini Monument",
+   "label": 12,
+   "px": 876,
+   "py": 360,
+   "lat": 0,
+   "lng": 0,
+   "floor": 0,
+   "facing": 0,
+   "isDestination": true,
+   "tags": [
+    "landmark"
+   ]
+  },
+  {
+   "id": "pe-building",
+   "name": "P.E. Building",
+   "label": 13,
+   "px": 798,
+   "py": 172,
+   "lat": 0,
+   "lng": 0,
+   "floor": 0,
+   "facing": 0,
+   "isDestination": true,
+   "tags": [
+    "building",
+    "sports"
+   ]
+  },
+  {
+   "id": "centennial-monument",
+   "name": "Lagoon Entrance (South) / Centennial Monument",
+   "label": 14,
+   "px": 765,
+   "py": 353,
+   "lat": 0,
+   "lng": 0,
+   "floor": 0,
+   "facing": 0,
+   "isDestination": true,
+   "tags": [
+    "landmark",
+    "entrance"
+   ]
+  },
+  {
+   "id": "chapel",
+   "name": "Interfaith Chapel",
+   "label": 15,
+   "px": 789,
+   "py": 777,
+   "lat": 0,
+   "lng": 0,
+   "floor": 0,
+   "facing": 0,
+   "isDestination": true,
+   "tags": [
+    "building"
+   ]
+  },
+  {
+   "id": "lagoon",
+   "name": "Lagoon",
+   "label": 16,
+   "px": 630,
+   "py": 399,
+   "lat": 0,
+   "lng": 0,
+   "floor": 0,
+   "facing": 0,
+   "isDestination": true,
+   "tags": [
+    "outdoor",
+    "food"
+   ]
+  },
+  {
+   "id": "amphitheater",
+   "name": "Amphitheater",
+   "label": 17,
+   "px": 589,
+   "py": 501,
+   "lat": 0,
+   "lng": 0,
+   "floor": 0,
+   "facing": 0,
+   "isDestination": true,
+   "tags": [
+    "outdoor"
+   ]
+  },
+  {
+   "id": "main-dome",
+   "name": "Main Building - Dome",
+   "label": 18,
+   "px": 592,
+   "py": 659,
+   "lat": 0,
+   "lng": 0,
+   "floor": 0,
+   "facing": 0,
+   "isDestination": true,
+   "tags": [
+    "building",
+    "classrooms"
+   ]
+  },
+  {
+   "id": "main-north",
+   "name": "Main Building - North Wing",
+   "label": 19,
+   "px": 705,
+   "py": 603,
+   "lat": 0,
+   "lng": 0,
+   "floor": 0,
+   "facing": 0,
+   "isDestination": true,
+   "tags": [
+    "building",
+    "classrooms"
+   ]
+  },
+  {
+   "id": "main-east",
+   "name": "Main Building - East Wing",
+   "label": 20,
+   "px": 592,
+   "py": 768,
+   "lat": 0,
+   "lng": 0,
+   "floor": 0,
+   "facing": 0,
+   "isDestination": true,
+   "tags": [
+    "building",
+    "classrooms"
+   ]
+  },
+  {
+   "id": "main-west",
+   "name": "Main Building - West Wing",
+   "label": 21,
+   "px": 485,
+   "py": 600,
+   "lat": 0,
+   "lng": 0,
+   "floor": 0,
+   "facing": 0,
+   "isDestination": true,
+   "tags": [
+    "building",
+    "classrooms"
+   ]
+  },
+  {
+   "id": "main-south",
+   "name": "Main Building - South Wing",
+   "label": 22,
+   "px": 474,
+   "py": 731,
+   "lat": 0,
+   "lng": 0,
+   "floor": 0,
+   "facing": 0,
+   "isDestination": true,
+   "tags": [
+    "building",
+    "classrooms"
+   ]
+  },
+  {
+   "id": "cnfs",
+   "name": "CNFS Building",
+   "label": 23,
+   "px": 750,
+   "py": 921,
+   "lat": 0,
+   "lng": 0,
+   "floor": 0,
+   "facing": 0,
+   "isDestination": true,
+   "tags": [
+    "building",
+    "classrooms"
+   ]
+  },
+  {
+   "id": "bgmo",
+   "name": "Building and Grounds Maintenance Office",
+   "label": 24,
+   "px": 542,
+   "py": 927,
+   "lat": 0,
+   "lng": 0,
+   "floor": 0,
+   "facing": 0,
+   "isDestination": true,
+   "tags": [
+    "building"
+   ]
+  },
+  {
+   "id": "library",
+   "name": "Ninoy Aquino Library and Learning Resources Center",
+   "label": 25,
+   "px": 523,
+   "py": 199,
+   "lat": 0,
+   "lng": 0,
+   "floor": 0,
+   "facing": 0,
+   "isDestination": true,
+   "tags": [
+    "building",
+    "study"
+   ]
+  },
+  {
+   "id": "cdr-sdc",
+   "name": "Charlie del Rosario Student Development Center",
+   "label": 26,
+   "px": 400,
+   "py": 374,
+   "lat": 0,
+   "lng": 0,
+   "floor": 0,
+   "facing": 0,
+   "isDestination": true,
+   "tags": [
+    "building"
+   ]
+  },
+  {
+   "id": "restroom",
+   "name": "Public Restroom",
+   "label": 27,
+   "px": 366,
+   "py": 439,
+   "lat": 0,
+   "lng": 0,
+   "floor": 0,
+   "facing": 0,
+   "isDestination": true,
+   "tags": [
+    "restroom"
+   ]
+  },
+  {
+   "id": "linear-park",
+   "name": "PUP Linear Park",
+   "label": 28,
+   "px": 300,
+   "py": 591,
+   "lat": 0,
+   "lng": 0,
+   "floor": 0,
+   "facing": 0,
+   "isDestination": true,
+   "tags": [
+    "outdoor"
+   ]
+  },
+  {
+   "id": "sampaguita",
+   "name": "Sampaguita Building",
+   "label": 29,
+   "px": 342,
+   "py": 491,
+   "lat": 0,
+   "lng": 0,
+   "floor": 0,
+   "facing": 0,
+   "isDestination": true,
+   "tags": [
+    "building"
+   ]
+  },
+  {
+   "id": "ferry",
+   "name": "PUP Ferry (Pasig River)",
+   "label": 30,
+   "px": 406,
+   "py": 901,
+   "lat": 0,
+   "lng": 0,
+   "floor": 0,
+   "facing": 0,
+   "isDestination": true,
+   "tags": [
+    "transport"
+   ]
+  }
+ ],
+ "edges": [],
+ "walkMask": "Maps/pup_walkmask.png"
+}
